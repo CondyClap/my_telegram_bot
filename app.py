@@ -16,4 +16,5 @@ def process_message(message):
     return api_response
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    # Make sure the app is running on port 8080
+    app.run(host='0.0.0.0', port=8080)
